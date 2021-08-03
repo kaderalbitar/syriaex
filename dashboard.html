@@ -4,10 +4,92 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dashboard</title>
+  <title>Dashboard – syriaex</title>
   <link rel="stylesheet" href="css/dbstyle.css">
 </head>
 <body>
+  <header class="showcase">
+    <div class="container">
+      <div class="showcase-content">
+        <div class="bg-img">
+          <img src="images/bg-img.jpg" alt="showcase clothes">
+        </div>
+        <div class="profile-img">
+          <img src="images/profile-img.jpeg" alt="profile image">
+        </div>
+        <div class="edit-img">
+          <a href="#">
+            <img src="images/edit-img.svg" alt="edit icon">
+          </a>
+        </div>
+        <h1>شركة أبو سمير</h1>
+        <div class="edit">
+          <a href="#">تعديل</a>
+        </div>
+      </div>
+      <nav>
+        <hr>
+        <ul>
+          <li class="hide"><a href="#">الإعدادات</a></li>
+          <li class="hide"><a href="#">المنتجات</a></li>
+          <li class="hide"><a href="#">تعديل الحساب</a></li>
+          <li class="hide"><a href="#">تسجيل الخروج</a></li>
+          <li>
+            <a href="#" id="more">المزيد<img src="images/arrow.svg" alt="list arrow"></a>
+            <div class="submenu">
+              <a href="#">الإعدادات</a>
+              <a href="#">المنتجات</a>
+              <a href="#">تعديل الحساب</a>
+              <a href="#">تسجيل الخروج</a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
   
+  <section class="products">
+    <div class="container">
+      <table id="products">
+        <thead>
+          <tr>
+            <th class="rightcolumn"><img src="images/bag.svg" alt="bag icon"> المنتجات</th>
+            <th class="leftcolumn">+ إضافة منتج جديد</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="rightcolumn">المجموع</td>
+            <td class="leftcolumn">0</td>
+          </tr>
+          <tr>
+            <td class="rightcolumn">المنتجات المنشورة</td>
+            <td class="leftcolumn">0</td>
+          </tr>
+          <tr>
+            <td class="rightcolumn">المنتجات المخفية</td>
+            <td class="leftcolumn">0</td>
+          </tr>
+          <tr>
+            <td class="rightcolumn">بانتظار موافقة الإدارة</td>
+            <td class="leftcolumn">0</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <section class="control">
+    <div class="container">
+      
+    </div>
+  </section>
+  <section class="settings">
+    <div class="container">
+
+    </div>
+  </section>
+
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
