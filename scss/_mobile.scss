@@ -2,10 +2,17 @@
   .showcase {
     nav {
       ul {
+        flex-direction: column;
+      }
+    }
+  }
+  /*.showcase {
+    nav {
+      ul {
         .hide {
           display: none;
         }
       }
     }
-  }
+  }*/
 }
